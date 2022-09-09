@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - print base16 
+* main - print base16
 * Return: Always (successfull)
 */
 int main(void)
