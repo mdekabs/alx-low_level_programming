@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib>
+#include <time>
 
 /**
  * main - print number from 0 to 9 , ans ' '
@@ -8,13 +10,13 @@
 
 int main(void)
 {
-	int i;
+	int m;
 
-	for (i = '0'; i <= '9'; i++)
+	for (m = '0'; m <= '9'; m++)
 	{
-		putchar(i);
+		putchar(m);
 
-		if (i != '9')
+		if (m != '9')
 		{
 			putchar(',');
 			putchar(' ');
