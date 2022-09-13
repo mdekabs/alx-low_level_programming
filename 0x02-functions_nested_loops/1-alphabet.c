@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_alphabet - function to pr abc
  *
@@ -7,7 +8,8 @@
 
 void print_alphabet(void)
 {
-	char m = 'a'
+	char m = 'a';
+
 	while (c <= 'z')
 	{
 		_putchar(m);
