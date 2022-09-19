@@ -4,6 +4,7 @@ include "main.h"
  * rev_string - string is reversed
  * @s: string to be reversed
  */
+
 void rev_string(char *s)
 {
 	char tmp;
