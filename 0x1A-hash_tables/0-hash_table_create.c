@@ -24,5 +24,5 @@ hash_table_t *hash_table_create(unsigned long int size)
 		ht->array[i] = NULL;
 
 	return (ht);
-	free(ht)
+	free(ht);
 }
